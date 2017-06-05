@@ -1,5 +1,6 @@
-# autoplanet
+# Autoplanet
 MVC based procedural PHP web app and secure coding exercise
+
 
 ## Directory Structure
 
