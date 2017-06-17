@@ -1,4 +1,5 @@
 <?php
+// Maps URL path to controller 
 $Get_url = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 $parts=(parse_url($Get_url));
 $params=explode("/", ($parts["path"]));
@@ -8,6 +9,7 @@ require_once('/var/www/html/autoplanet/application/controllers/searchcar.php');}
 if (file_exists($controller)) {
 require_once($controller); }
 else { 
+// Load Controller
 require_once('/var/www/html/autoplanet/application/controllers/searchcar.php');
 }
 ?>
