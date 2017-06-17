@@ -8,8 +8,8 @@ $params=explode("/", ($parts["path"]));
 $controller="/var/www/html/autoplanet/application/controllers/".$params[1].".php";
 if (($Get_url=="https://www.autoplanet.nu/") OR ($Get_url=="https://www.autoplanet.nu/home")) {   
 require_once('/var/www/html/autoplanet/application/controllers/searchcar.php');}
+// Load controller if the URL path matches with a controller name
 if (file_exists($controller)) {
-// If URL path matches with a controller load this controller
 require_once($controller); }
 else { 
 // Load home page if URL path doesn't match with a controller
