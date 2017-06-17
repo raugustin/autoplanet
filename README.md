@@ -20,6 +20,9 @@ As security professional I was involved with website security testing, reporting
             \models
             \helpers
             \views
-       
 
-More information will be added later...
+## MVC Components
+
+![autoplanet_mvc_components](https://user-images.githubusercontent.com/29182266/27253226-ee0cba52-5370-11e7-84bc-ecfd91651f78.jpg)
+
+More information to follow...
