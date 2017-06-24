@@ -25,6 +25,10 @@ As security professional I was involved with website security testing, reporting
 
 ![autoplanet_mvc_components](https://user-images.githubusercontent.com/29182266/27253226-ee0cba52-5370-11e7-84bc-ecfd91651f78.jpg)
 
+## Controller Structure
+
+
+
 ## Security Architecture
 
 ![data_integrity](https://user-images.githubusercontent.com/29182266/27455633-48a7cd0e-579e-11e7-95bc-b68476d3744a.jpg)
