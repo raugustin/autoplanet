@@ -30,7 +30,7 @@ As security professional I was involved with website security testing, reporting
 ![controller_structure](https://user-images.githubusercontent.com/29182266/27509140-84470470-58f6-11e7-9d30-a20288199902.jpg)
 
 ## Security Architecture
-# Data Integrity Controls
+### Data Integrity Controls
 * Sanitization: Remove/replace/escape/encode unwanted input  
 * Validation: Reject unwanted input 
 
