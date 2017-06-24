@@ -31,8 +31,8 @@ As security professional I was involved with website security testing, reporting
 
 ## Security Architecture
 ### Data Integrity Controls
-* Input vanitization: Remove/replace/escape/encode unwanted input  
-* Input salidation: Reject unwanted input
+* Input sanitization: Remove/replace/escape/encode unwanted input  
+* Input validation: Reject unwanted input
 * Prepared Statements: Prevent that user data can alter your SQL queries
 * File upload validation: Don’t allow users to upload whatever they want
 
