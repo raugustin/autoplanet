@@ -34,7 +34,7 @@ As security professional I was involved with website security testing, reporting
 * Input sanitization: Remove/replace/escape/encode unwanted input  
 * Input validation: Reject unwanted input
 * Prepared Statements: Prevent that user data can alter your SQL queries
-* File upload validation: Don’t allow users to upload whatever they want
+* File upload security: Don’t allow users to upload and execute whatever they want
 
 
 
