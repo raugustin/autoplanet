@@ -62,6 +62,7 @@ Where to put the data access controls in the MVC
 * Design robust application logic: Prevent that application logic steps can be bypassed or executed in the wrong way
 * Prevent abuse of functionality: Add safeguards to prevent abuse of your application (e.g. captchas to counter automated attacks)
 * Minimize attack surface: Unnecessary features may be exploited by attackers 
+
 ![functionality](https://user-images.githubusercontent.com/29182266/27455663-5c5b89ee-579e-11e7-862a-c0f2896471a8.jpg)
 Where to put the functionality controls in the MVC
 
