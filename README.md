@@ -49,7 +49,18 @@ Where to put the data integrity controls in the MVC
 ![data_access](https://user-images.githubusercontent.com/29182266/27455646-50bc6608-579e-11e7-8da2-baa6f5bfcb7c.jpg)
 Where to put the data access controls in the MVC
 ### Data Protection Controls
+* Protect sensitive user data: Use site-wide TLS encryption to ensure that all data is sent via HTTPS
+* Protect data on web forms: Use POST for sending information via web forms and turn off autocompletion on browsers 
+* Protect session data: Enforce that only cookies are used for transmitting session data and that they only can be sent via HTTPS
+* Protect credentials: Use a recent salted password hashing algorithm and keep database connection strings out of your source code
+* Protect sensitive data on your server: Use URL rewriting and routing to hide physical files/paths and disable directory listings
+* Don't reveal your source code: Prevent displaying stacktraces, show only generic error messages
 ![data_protection](https://user-images.githubusercontent.com/29182266/27455656-573f4586-579e-11e7-8573-ef6cad6deceb.jpg)
+Where to put the data access controls in the MVC
+### Functionality Controls
+* Design robust application logic: Prevent that application logic steps can be bypassed or executed in the wrong way
+* Prevent abuse of functionality: Add safeguards to prevent abuse of your application (e.g. captchas to counter automated attacks)
+* Minimize attack surface: Unnecessary features may be exploited by attackers 
 ![functionality](https://user-images.githubusercontent.com/29182266/27455663-5c5b89ee-579e-11e7-862a-c0f2896471a8.jpg)
-
+Where to put the functionality controls in the MVC
 More to follow...
