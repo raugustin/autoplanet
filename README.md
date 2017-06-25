@@ -55,6 +55,7 @@ Where to put the data access controls in the MVC
 * Protect credentials: Use a recent salted password hashing algorithm and keep database connection strings out of your source code
 * Protect sensitive data on your server: Use URL rewriting and routing to hide physical files/paths and disable directory listings
 * Don't reveal your source code: Prevent displaying stacktraces, show only generic error messages
+
 ![data_protection](https://user-images.githubusercontent.com/29182266/27455656-573f4586-579e-11e7-8573-ef6cad6deceb.jpg)
 Where to put the data access controls in the MVC
 ### Functionality Controls
@@ -63,4 +64,5 @@ Where to put the data access controls in the MVC
 * Minimize attack surface: Unnecessary features may be exploited by attackers 
 ![functionality](https://user-images.githubusercontent.com/29182266/27455663-5c5b89ee-579e-11e7-862a-c0f2896471a8.jpg)
 Where to put the functionality controls in the MVC
+
 More to follow...
