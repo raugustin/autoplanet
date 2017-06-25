@@ -43,10 +43,12 @@ Where to put the data integrity controls in the MVC
 * Web page access: Check authorization upon every page request - has the user the right role to access this web page ?
 * Data object access: Make sure that only authorized users can execute actions on data objects (e.g. delete records)
 * Centralize access control: Use a centralized authorization routine - copying the same authorization code on every page is error prone
-* Session data access: Prevent unauthorized access to session data (session ID's and cookies)
+* Session data access: Prevent unauthorized access to session ID's and cookies
 * Database access: Use database accounts for each user role with corresponding authorizations based on least privilege principle
+
 ![data_access](https://user-images.githubusercontent.com/29182266/27455646-50bc6608-579e-11e7-8da2-baa6f5bfcb7c.jpg)
 Where to put the data access controls in the MVC
+### Data Protection Controls
 ![data_protection](https://user-images.githubusercontent.com/29182266/27455656-573f4586-579e-11e7-8573-ef6cad6deceb.jpg)
 ![functionality](https://user-images.githubusercontent.com/29182266/27455663-5c5b89ee-579e-11e7-862a-c0f2896471a8.jpg)
 
