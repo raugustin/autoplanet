@@ -6,7 +6,7 @@ As security professional I was involved with website security testing, reporting
 
 Therefore I started two projects: autoworld and autoplanet. Both are car trading websites, based on PHP and MySQL: Users can sell cars (after signing in) and can search and buy cars. Autoworld was written from scratch with no plan, little knowledge of programming and therefore full of vulnerabilities. Autoplanet is the second project and an attempt to do a better job by using MVC architecture, code design priciples (dry, kiss, yagni, name conventions, etc.) and secure coding practices. As I had little experience with OOP both sites were programmed in procedural PHP, to my opinion this shouldn't be an issue as you can write good code and secure code also in procedural programming.
 
-Note that this is work in progress and that the code will be regularly updated but hopefully it may still be helpful!
+Note that this is work in progress and that the code will be regularly updated but hopefully it may still be helpful.
 
 ![autoplanet home page](https://user-images.githubusercontent.com/29182266/27202001-262ad6e6-5220-11e7-8f87-f305af62187a.jpg)
 
